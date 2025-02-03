@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color:lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.group1, .group2, .group3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.card {
+    position: relative;
+    margin: 25px;
+    width: 200px;
+    height: 150px;
+    background-color:blanchedalmond;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 10px 0 20px rgba(0,0,0,0.4), inset 300px 0 50px rgba(0,0,0,0.4);
+    transform: perspective(2000px);
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+}
+
+.card:hover {
+    transform: perspective(2000px) rotateZ(-10deg);
+    box-shadow: 10px 0 20px rgba(0,0,0,0.4), inset 20px 0 50px rgba(0,0,0,0.4);
+}
+
+.card:hover .cover{
+    transform: rotateY(-135deg);
+}
+
+.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:darkseagreen;
+    border-radius: 10px;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+}
+
+.cover img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    backface-visibility: hidden;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5px;
+}
+
+.content h2 {
+    margin-bottom: 1rem;
+}
