@@ -21,8 +21,8 @@ body {
 
 .card {
     position: relative;
-    margin: 50px;
-    width: calc(.25 * 100vw);
+    margin: 150px;
+    width: calc(.15 * 100vw);
     height: calc(.15 * 100vh);
     background-color:blanchedalmond;
     border-radius: 10px;
