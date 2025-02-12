@@ -24,7 +24,7 @@ body {
     position: relative;
     margin: 150px;
     width: 500px;
-    height: 400px;
+    height: 600px;
     background-color:blanchedalmond;
     border-radius: 10px;
     cursor: pointer;
@@ -81,5 +81,5 @@ body {
 }
 
 .content p {
-    font-size: 50px;
+    font-size: 48px;
 }
