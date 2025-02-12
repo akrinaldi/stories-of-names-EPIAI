@@ -22,9 +22,9 @@ body {
 
 .card {
     position: relative;
-    margin: 150px;
-    width: 700px;
-    height: 800px;
+    margin: 200px;
+    width: 650px;
+    height: 750px;
     background-color:blanchedalmond;
     border-radius: 10px;
     cursor: pointer;
@@ -76,10 +76,6 @@ body {
     align-items: center;
 }
 
-.content h2 {
-    margin-bottom: 1rem;
-}
-
 .content p {
-    font-size: 15px;
+    font-size: 10px;
 }
