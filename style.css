@@ -14,7 +14,7 @@ body {
     overflow: hidden;
 }
 
-.group1, .group2, .group3 {
+.group{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
