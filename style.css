@@ -22,8 +22,8 @@ body {
 .card {
     position: relative;
     margin: 300px;
-    width: calc(.15 * 100vw);
-    height: calc(.15 * 100vh);
+    width: 500px;
+    height: 400px;
     background-color:blanchedalmond;
     border-radius: 10px;
     cursor: pointer;
