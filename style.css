@@ -21,9 +21,9 @@ body {
 
 .card {
     position: relative;
-    margin: 15px;
-    width: calc(.18 * 100vw);
-    height: calc(.25 * 100vh);
+    margin: 50px;
+    width: calc(.25 * 100vw);
+    height: calc(.15 * 100vh);
     background-color:blanchedalmond;
     border-radius: 10px;
     cursor: pointer;
