@@ -16,12 +16,12 @@ body {
 
 .group1, .group2, .group3 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .card {
     position: relative;
-    margin: 150px;
+    margin: 300px;
     width: calc(.15 * 100vw);
     height: calc(.15 * 100vh);
     background-color:blanchedalmond;
