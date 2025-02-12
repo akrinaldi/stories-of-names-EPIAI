@@ -22,8 +22,8 @@ body {
 .card {
     position: relative;
     margin: 150px;
-    width: 500px;
-    height: 600px;
+    width: 700px;
+    height: 800px;
     background-color:blanchedalmond;
     border-radius: 10px;
     cursor: pointer;
@@ -80,5 +80,5 @@ body {
 }
 
 .content p {
-    font-size: 35px;
+    font-size: 25px;
 }
