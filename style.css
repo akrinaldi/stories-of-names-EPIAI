@@ -16,7 +16,7 @@
 
 body {
     font-family: 'noto';
-    min-width: 85vw;
+    min-width: 90vw;
     background-color:lightcoral;
     display: flex;
     justify-content: center;
