@@ -2,12 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'noto';
+	src: local('noto'), url('./webfonts/noto-serif-display-latin-500-normal.woff') format('woff');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_62169">Text with this font applied</p> */
+.fontsforweb_fontid_62169 {
+	font-family: 'noto' !important;
 }
 
 body {
-    min-height: 100vh;
-    min-width: 100vw;
+    font-family: 'noto';
+    min-width: 90vw;
     background-color:lightcoral;
     display: flex;
     justify-content: center;
